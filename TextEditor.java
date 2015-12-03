@@ -200,7 +200,7 @@ public class TextEditor {
 			file_frame.pack();
 		}
 
-		/* method to open blank file */
+		/* METHOD: to open blank file */
 		public void blank_file() {
 			textarea.setText("");
 			file_frame.setVisible(true);
@@ -216,7 +216,7 @@ public class TextEditor {
 			}
 		}
 
-		/* METHOD: set labels of the menu items accordingly */
+		/* METHOD: set labels of the menu items for search history accordingly */
 		public void settext(int i) {
 			int last = LL.size() - 1;
 			switch (i) {
@@ -258,8 +258,8 @@ public class TextEditor {
 			word5.setVisible(false);
 			LL.clear();
 			submenu_old.removeAll();
-				tmap.clear();
-				al.clear();
+			tmap.clear();
+			al.clear();
 	
 		}
 		
